@@ -25,13 +25,13 @@ function bttnsOnClick(event){
 function rotate(index){
     switch(index){
         case 0:
-            body.style.transform = "skew(25deg) scale(0.8) rotate(-30deg)";
+            body.style.transform = "rotate(-30deg) skew(25deg) scale(0.8) ";
             break;
         case 1:
-            body.style.transform = "skew(0deg) scale(0.8) rotate(0deg)";
+            body.style.transform = "rotate(0deg) skew(0deg) scale(0.8) ";
             break;
         case 2:
-            body.style.transform = "skew(-25deg, -15deg) scale(0.8) rotate(20deg)";
+            body.style.transform = "rotate(20deg) skew(-25deg, -15deg) scale(0.8) ";
             break;
     }
 }
