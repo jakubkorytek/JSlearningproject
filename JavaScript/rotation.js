@@ -1,5 +1,5 @@
 var buttons = document.querySelectorAll('li');
-var body = document.querySelector('div');
+var body = document.querySelector('.main');
 var index = 0;
 
 function bttnsOnClick(event){
