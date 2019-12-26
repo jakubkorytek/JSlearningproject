@@ -27,7 +27,7 @@ inputFile.addEventListener("change", function () {
 
 let body = document.querySelector('.fill-me');
 
-inputFile.addEventListener('click', function() {
+inputFile.addEventListener('click', async function() {
     var Request = new XMLHttpRequest();
     Request.open('GET', 'data.json');
     Request.onload = function() {
