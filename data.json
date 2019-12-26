@@ -1,0 +1,7 @@
+{
+  "response": {
+    "firstName": "John",
+    "lastName": "Smith",
+    "message": "Good stuff, you changed image!"
+  }
+}
