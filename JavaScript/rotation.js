@@ -1,5 +1,5 @@
 var buttons = document.querySelectorAll('li');
-var body = document.querySelector('.main');
+
 var index = 0;
 
 function bttnsOnClick(event){
@@ -23,6 +23,7 @@ function bttnsOnClick(event){
 }
 
 function rotate(index){
+    let body = document.querySelector('.main');
     switch(index){
         case 0:
             body.style.transform = "rotate(-30deg) skew(25deg) scale(0.8) ";

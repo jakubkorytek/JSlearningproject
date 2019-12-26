@@ -1,5 +1,5 @@
-var inputFile = document.getElementById('inputFile');
-var images = document.querySelectorAll('img');
+let inputFile = document.getElementById('inputFile');
+let images = document.querySelectorAll('img');
 
 inputFile.addEventListener("change", function () {
     const file = this.files[0];
@@ -25,10 +25,9 @@ inputFile.addEventListener("change", function () {
 
 });
 
-var btn = document.getElementById('inputFile');
-var body = document.querySelector('.fill-me');
+let body = document.querySelector('.fill-me');
 
-btn.addEventListener('click', function() {
+inputFile.addEventListener('click', function() {
     var Request = new XMLHttpRequest();
     Request.open('GET', 'data.json');
     Request.onload = function() {
